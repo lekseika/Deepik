@@ -1,0 +1,194 @@
+
+/* Повораивание логотипа */
+
+.loading {
+    margin: 10% auto;
+    background-image:url(../images/logo-round3.png);
+	height: 50px;
+	width: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+	-webkit-animation: spin 1.2s 5 linear;
+	-moz-animation: spin 1.2s 5 linear;
+	-ms-animation: spin 1.2s 5 linear;
+	-o-animation: spin 1.2s 5 linear;
+	animation: spin 1.2s 5 linear;
+}
+
+@keyframes "spin" {
+ from {
+    -webkit-transform: rotate(0deg);
+   	-moz-transform: rotate(0deg);
+   	-o-transform: rotate(0deg);
+   	-ms-transform: rotate(0deg);
+   	transform: rotate(0deg);
+ }
+ to {
+    -webkit-transform: rotate(359deg);
+   	-moz-transform: rotate(359deg);
+   	-o-transform: rotate(359deg);
+   	-ms-transform: rotate(359deg);
+   	transform: rotate(359deg);
+ }
+
+}
+
+@-moz-keyframes spin {
+ from {
+   -moz-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -moz-transform: rotate(359deg);
+   transform: rotate(359deg);
+ }
+
+}
+
+@-webkit-keyframes "spin" {
+ from {
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -webkit-transform: rotate(359deg);
+   transform: rotate(359deg);
+ }
+
+}
+
+@-ms-keyframes "spin" {
+ from {
+   -ms-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -ms-transform: rotate(359deg);
+   transform: rotate(359deg);
+ }
+
+}
+
+@-o-keyframes "spin" {
+ from {
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ to {
+   -o-transform: rotate(359deg);
+   transform: rotate(359deg);
+ }
+
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}
+
+/* Шрифт */
+/*@font-face{
+    font-family: Deepik;
+    src: url(../fonts/Eras_Demi_ITC.ttf);
+}*/
+@font-face{
+    font-family: Deepik;
+    src: url(../fonts/MuseoSansCyrl_3.otf);
+}
+/* Прочее */
+.black{
+    color:black;
+}
+.block-programm{
+    margin-bottom: 0px;
+    padding: 20px 25px;
+    font-style: italic;
+    font-family: 'Deepik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.time{
+    font-weight: 700;
+}
+.programm{
+   /* padding: 5px 10px 20px 10px;*/
+    padding: 4px 0px 12px 35px;
+     word-wrap: break-word; 
+}
+.is_overlay{
+    position: fixed;
+    z-index: -100;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.is_overlay video {
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;
+    background-size: cover;
+}
+.bg-cl{
+    margin:0 -30px;
+    padding:50px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.bg-vd{
+    position: fixed;
+    z-index: -10;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg-border9.png);
+}
+.bg-title{
+    font-family: 'Deepik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.dummy{
+    margin-bottom: 100px;
+}
+.dummy2{
+    margin-top: 100px;
+}
+h3.programm{
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top:  10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+h2.program-title{
+    color: #fff;
+    font-family: 'Deepik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 45px;
+}
+.foofooter{
+    font-size: 27px;
+    font-family: 'Deepik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+}
+
+
+/* Плеер*/
+/**
+   * Play button
+   */
+ .radio-default #play{
+     position: absolute;
+     top: 75px;
+     left: 255px;
+     width: 40px;
+     height: 40px;
+     background-image: url(../gfx/default/button-play.png);
+     background-position: top left;
+     background-repeat: no-repeat;
+     cursor: pointer;
+ }

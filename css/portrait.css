@@ -1,0 +1,69 @@
+/* Разрешения экрана */
+@media (max-width:767px) and (orientation:portrait) { 
+    .navbar-header {    
+        padding: 4px 0; 
+    }
+    .block-programm {
+        font-size: 12px;
+    }
+    .name i{
+        padding-left:10px;
+    }
+    .time{
+        padding-right: 5px;
+    }
+    .bg-title{        
+        font-size: 90px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation:portrait) { 
+    .navbar-header { 
+        padding: 4px 0;  
+    }
+    .block-programm {
+        font-size: 16px;
+    }
+    .name i{
+        padding-left:15px;
+    }
+    .time{
+        padding-right: 15px;
+    }
+    .bg-title{        
+        font-size: 210px;
+    }
+}
+@media screen and (min-width:992px) and (max-width: 1999px) and (orientation:portrait) {  
+    .navbar-header {  
+        padding: 4px 0; 
+    }
+    .block-programm {
+        font-size: 20px;
+    }
+    .name i{
+        padding-left:15px;
+    }
+    .time{
+        padding-right: 15px;
+    }
+    .bg-title{        
+        font-size: 290px;
+    }
+}
+@media screen and (min-width: 1200px) and (orientation:portrait) {  
+    .navbar-header {    
+        padding: 4px 0; 
+    }
+    .block-programm {
+        font-size: 26px;
+    }
+    .name i{
+        padding-left:15px;
+    }
+    .time{
+        padding-right: 15px;
+    }
+    .bg-title{        
+        font-size: 370px;
+    }
+}

@@ -1,0 +1,14 @@
+.damn{
+    color:white; 
+}
+.block-programm {
+    color: #ff0;
+    text-shadow: 1px 1px #000;
+}
+
+.first-part, .second-part{
+    background-image: url(../images/bkgd.png);
+}
+body{
+    background-color: #000;
+}

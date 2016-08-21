@@ -1,0 +1,5 @@
+Eras Bold ITC
+Franklin Gothic Heavy
+Gill Sans MT
+
+'MostraOneRegularRegular',Arial,sans-serif

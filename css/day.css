@@ -1,0 +1,22 @@
+body{
+    background-color: #9bdcff;
+}
+.logo-title{
+    color:white; 
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Deepik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.block-programm {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.first-part, .second-part{
+    /*background-image: url(../images/bkgd.png);*/
+    background-color: rgba(0, 217, 208, 0.8); /*rgba(75, 186, 255, 0.7);*/
+}
+.bg-title{    
+    color: rgba(0, 255, 245, 0.85);
+    text-shadow: 2px 2px #000;
+}
